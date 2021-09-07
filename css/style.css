@@ -29,6 +29,7 @@ Global css
 	--btn-disabled-dark:#49657C;
 
 	--form-control:#585f66;
+	--non-covid-box:#f7fafc;
 }
 
 /*-- bootstrap modification color --*/
@@ -39,7 +40,7 @@ Global css
 .btn-primary {
     color: var(--main-color);
     background-color: var(--btn-bg-main);
-    border-color: var(--form-control);
+    border-color: var(--btn-bg-main);
 }
 .btn-primary.disabled, .btn-primary:disabled {
     color: #fff;
@@ -49,7 +50,20 @@ Global css
 label.form-check-label {
     color: var(--black-900);
 }
-
+#lokasi{
+	color: var(--btn-bg-main);
+	border-color: var(--btn-bg-main);
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff17;
+    border-color: #007bff;
+}
+.btn-primary:hover{
+	color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
 /*-------------------------------------------*/
 body.dark{
 	--main-color:var(--main-color2);
@@ -69,6 +83,7 @@ body.dark{
 	--btn-bg-main:var(--btn-bg-dark);
 	--btn-disabled-main:var(--btn-disabled-dark);
 	--form-control:#939597;
+	--non-covid-box:#2D3748;
 }
 h1, h2, h3, h4, h5, p, label{
 	color: var(--black-900);
@@ -180,7 +195,7 @@ section{
 	width: 30px;
 	background-color: var(--dark-to-main-color);
 	z-index: 1200;
-	color: var(--black-000);
+	color: var(--black-900);
 	cursor: pointer;
 	border-radius: 50%;
 	box-shadow: var(--shadow-black-300);

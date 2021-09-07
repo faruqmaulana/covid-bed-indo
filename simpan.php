@@ -180,7 +180,7 @@ if($err){
 					$styleBox ='
 					 style="text-align: center;
 							border-radius: 5px;
-							background: #f7fafc;
+							background: var(--non-covid-box);
 							border:2px solid;
 							padding:12px;
 							border-color: #e53e3e;"';
@@ -192,7 +192,7 @@ if($err){
 					 style="text-align: center;
 							border-radius: 5px;
 							padding:12px;
-							background: #f7fafc;"';
+							background: var(--non-covid-box);"';
 					$style = '';
 					$fontStyle = '';
 				}
