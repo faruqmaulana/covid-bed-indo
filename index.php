@@ -22,14 +22,14 @@
 					 <div class="form-group">
 					   <label for="provinsi" class="font-weight-bold">Pilih Provinsi</label>
 					   <select class="form-control" name="province">
-					   <option>Silahkan Pilih Provinsi Terlebih Dahulu... </option>
+					   <option>Silahkan Pilih Provinsi Terlebih Dahulu...</option>
 					   </select>
 					</div>
 				
 					 <div class="form-group">
 					   <label for="kabupaten" class="font-weight-bold">Pilih Kabupaten / Kota</label>
 					   <select disabled class="form-control not-allowed" name="district">
-					   <option>Silahkan Pilih Provinsi Terlebih Dahulu... <i class="fas fa-circle-notch"></i></option>
+					   <option>Silahkan Pilih Provinsi Terlebih Dahulu...</option>
 					   </select>
 					</div>
 
