@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 
 </head>
-<body style="background-color: #EDF2F7;">
+<body style="background-color:var(--main-color);">
 
 <section class="d-flex align-items-center" style="min-height: 100vh;">
 	<div class="container">
@@ -56,9 +56,19 @@
 </section>
 
 
-<footer> </footer>
+<footer class="text-center p-2" style="color:var(--black);">
+	<a href="https://github.com/faruqmaulana/covid-bed-indo">
+		<p class="font-weight-bold"><i class="fab fa-github"></i> &nbsp;Github Repository</p>
+	</a>
+</footer>
 
+<!-- Theme -->
 
+  <div class="toggle-theme">
+    <i class="fas "></i>
+  </div>
+
+<!-- Akhir Theme -->
 
 
 
@@ -70,6 +80,7 @@
 <!-- bootstrap js -->
 <script src="script/bootstrap.min.js"></script>
 <!-- main js -->
+<script src="script/main.js"></script> 
 <script src="script/provinces.js"></script> 
 </body>
 </html>

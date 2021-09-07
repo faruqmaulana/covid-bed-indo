@@ -8,20 +8,31 @@ Global css
 -------------*/
 :root{
 	--main-color: #EDF2F7;
-	--main-color2:#7857fd;
-	--color-1: #e91e63;
-	--color-2: #f5ae10;
-	--color-3: #09d69c;
+	--main-color2:#1A202C;
 	--bg-dark: #C5E8FF;
-	--main-to-dark-color:var(--main-color);
-	--dark-to-main-color:var(--bg-dark);
 	--shadow-black-100:0 5px 15px rgba(0,0,0,0.1);
 	--shadow-black-300:0 5px 15px rgba(0,0,0,0.3);
-	--black-900: #000000;
+	--black-900: #343a40;
 	--black-400: #555555;
 	--black-100: #f7f7f7;
 	--black-000: #ffffff;
 	--black-alpha-100: rgba(0,0,0,0.05); 
+}
+
+body.dark{
+	--main-color:var(--main-color2);
+	--black-100: var(--bg-dark);
+	--black-000: #282829;
+	--black-400: #d2d2d6;
+	--main-to-dark-color:var(--bg-dark);
+	--dark-to-main-color:var(--main-color);
+	--shadow-black-100:var(--shadow-black-300);
+	--black-alpha-100: rgba(255,255,255,0.05);
+	--black-900: #EDEDEE;
+	--black-100: var(--bg-dark);
+}
+h1, h2, h3, h4, h5, p{
+	color: var(--black-900);
 }
 body{
 	font-family: 'Poppins', sans-serif;
@@ -69,7 +80,7 @@ span.address{
 }
 
 section{
-	
+
 }
 
 /* -----Loader-------- */
@@ -119,3 +130,25 @@ section{
 	border-radius: 50%;
 	animation: zoomInOut_01 1s ease infinite;
 }
+
+
+/*----------------- Toggle theme -----------------*/
+.toggle-theme{
+	position: fixed;
+	right: 0;
+	top: calc(95.5% - 20px);
+	height: 30px;
+	width: 30px;
+	background-color: var(--dark-to-main-color);
+	z-index: 1200;
+	color: var(--black-000);
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: var(--shadow-black-300);
+	font-size: 16px;
+	text-align: center;
+	margin-right: 3%;
+}
+.toggle-theme i{
+	line-height: 30px;
+} 
