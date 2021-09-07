@@ -13,12 +13,45 @@ Global css
 	--shadow-black-100:0 5px 15px rgba(0,0,0,0.1);
 	--shadow-black-300:0 5px 15px rgba(0,0,0,0.3);
 	--black-900: #343a40;
+	--black-alpha-100: rgba(0,0,0,0.05);
 	--black-400: #555555;
 	--black-100: #f7f7f7;
-	--black-000: #ffffff;
-	--black-alpha-100: rgba(0,0,0,0.05); 
+
+	/*own color*/
+	--slash-color-main :#3182CE;
+	--slash-color-dark :#354159;
+
+	/*btn*/
+	--btn-bg-main:#3182CE;
+	--btn-bg-dark:#90CDF4;
+
+	--btn-disabled-main:#A2C6E7;
+	--btn-disabled-dark:#49657C;
 }
 
+/*-- bootstrap modification color --*/
+.form-control {
+	background-color: var(--main-color);
+	color:var(--black-900);
+}
+.btn-primary {
+    color: var(--main-color);
+    background-color: var(--btn-bg-main);
+    border-color: var(--btn-bg-main);
+}
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: var(--btn-disabled-main);
+    border-color: var(--btn-disabled-main);
+}
+.form-check-label {
+    color: var(--black-900);
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: var(--main-color);
+    opacity: .70;
+}
+/*-------------------------------------------*/
 body.dark{
 	--main-color:var(--main-color2);
 	--black-100: var(--bg-dark);
@@ -30,8 +63,13 @@ body.dark{
 	--black-alpha-100: rgba(255,255,255,0.05);
 	--black-900: #EDEDEE;
 	--black-100: var(--bg-dark);
+
+	/*own color*/
+	--slash-color-main:var(--slash-color-dark);
+	--btn-bg-main:var(--btn-bg-dark);
+	--btn-disabled-main:var(--btn-disabled-dark);
 }
-h1, h2, h3, h4, h5, p{
+h1, h2, h3, h4, h5, p, label{
 	color: var(--black-900);
 }
 body{

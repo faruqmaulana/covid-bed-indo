@@ -61,7 +61,7 @@ if($err){
 			$status_hospitals ='<div class="text-white" style="background-color: #E53E3E; border-radius: 5px;">
 								<p class="pt-4 pb-4 font-weight-bold">Penuh !</p>
 								</div>';
-			$haloo = 'style="border: 4px solid; border-radius: 7px; border-color: #E53E3E;"';
+			$haloo = 'style="border: 3px solid; border-radius: 7px; border-color: #E53E3E;"';
 			$phone = "Tidak Tersedia";
 			$halo = "disabled";
 			$disable_cursor = 'style="cursor: not-allowed;"';
@@ -91,7 +91,7 @@ if($err){
 			$status_hospitals ='<div class="text-white" style="background-color: #E53E3E; border-radius: 5px;">
 								<p class="pt-4 pb-4 font-weight-bold">Penuh !</p>
 								</div>';
-			$haloo = 'style="border: 4px solid; border-radius: 7px; border-color: #E53E3E;"';
+			$haloo = 'style="border: 3px solid; border-radius: 7px; border-color: #E53E3E;"';
 			$phone = $phone;
 			$halo = "";
 			$disable_cursor = '';
