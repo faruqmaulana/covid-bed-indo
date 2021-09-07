@@ -47,10 +47,7 @@ Global css
 .form-check-label {
     color: var(--black-900);
 }
-.form-control:disabled, .form-control[readonly] {
-    background-color: var(--main-color);
-    opacity: .70;
-}
+
 /*-------------------------------------------*/
 body.dark{
 	--main-color:var(--main-color2);
