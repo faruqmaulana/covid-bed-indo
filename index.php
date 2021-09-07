@@ -22,7 +22,7 @@
 					 <div class="form-group">
 					   <label for="provinsi" class="font-weight-bold">Pilih Provinsi</label>
 					   <select class="form-control" name="province">
-					   <option>Silahkan Pilih Provinsi Terlebih Dahulu...</option>
+					   <option>Silahkan Pilih Provinsi Terlebih Dahulu... <i class="fas fa-circle-notch"></i></option>
 					   </select>
 					</div>
 				
