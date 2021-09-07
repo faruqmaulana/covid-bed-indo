@@ -13,8 +13,8 @@
 </head>
 <body style="background-color: #EDF2F7;">
 
-<section class="d-flex align-items-center">
-	<div class="container pt-5">
+<section class="d-flex align-items-center" style="min-height: 100vh;">
+	<div class="container">
 		<form method="post">
 			<div class="row">
 				<div class="col-sm-8 offset-sm-2">

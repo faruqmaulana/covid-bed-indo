@@ -13,20 +13,28 @@
 </head>
 <body style="background-color: #EDF2F7;">
 
-<div class="container">
- <div class="row justify-content-center">
-  <div class="col-sm-9">
-  	<h2 class="font-weight-bold mb-3 pt-4 text-center">Detail Rumah Sakit</h2>
-	<a type="button" class="btn btn-primary btn-block" href="##" onClick="history.go(-1); return false;" >Kembali ke Daftar</a>
-  <div class="loader" id="wait"><div></div><div></div><div></div><div></div></div>
-   	<div name="detail-host" class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
-    
-    <!-- end of #accordion -->
-	</div>
+<section class="d-flex align-items-center" style="min-height: 100vh;">
+  <div class="container">
+   <div class="row justify-content-center">
+    <div class="col-sm-9">
+    	<h2 class="font-weight-bold mb-3 pt-4 text-center">Detail Rumah Sakit</h2>
+  	   <a type="button" 
+          class="btn btn-primary btn-block" 
+          href="##" 
+          onClick="history.go(-1); return false;">
+          <i class="fas fa-arrow-left"></i>
+           Kembali ke Daftar
+        </a>
+        <div class="loader" id="wait"><div></div><div></div><div></div><div></div></div>
+        <div name="detail-host" class="panel-group wrap" id="accordion" role="tablist" aria-multiselectable="true">
+          
+          <!-- end of #accordion -->
+      	</div>
+     </div>
+    <!-- end of wrap -->
+   </div>
   </div>
-  <!-- end of wrap -->
-</div>
-</div>
+</section>
 <!-- end of container -->
 
 <!-- jquery js -->
