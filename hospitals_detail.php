@@ -54,7 +54,12 @@ if($err){
   		$count_number += 1;
 
   		echo '<div class="panel">
-		        <div class="panel-heading" role="tab" id="heading'.$count_number.'" style="background-color:var(--panel-heading);">
+		        <div class="panel-heading" role="tab" id="heading'.$count_number.'" style="
+				background-color:var(--panel-headingg);
+				border-radius: 5px;
+				border: none;
+				color: #fff;
+				padding: 0;">
 		          <h4 class="panel-title">
 		        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse'.$count_number.'" aria-expanded="true" aria-controls="collapseOne" class="font-weight-bold" style="padding-right:40px;">'.$bedtitle.'<br>
 		          <span>Diupdate pada : '.$time.' </span>

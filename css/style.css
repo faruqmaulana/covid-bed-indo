@@ -32,7 +32,7 @@ Global css
 	--non-covid-box:#f7fafc;
 	--disable-color:#aaafaf;
 	--border-form: 1px solid #ced4da;
-	--panel-heading: #009688;
+	--panel-headingg: #009688;
 }
 
 /*-- bootstrap modification color --*/
@@ -101,10 +101,10 @@ body.dark{
 	--btn-bg-main:var(--btn-bg-dark);
 	--btn-disabled-main:var(--btn-disabled-dark);
 	--form-control:#939597;
+	--panel-headingg:#1A202C;
 	--non-covid-box:#2D3748;
 	--disable-color:#4c4d4d;
 	--border-form: 1px solid #ced4da40;
-	--panel-heading:#1A202C;
 }
 h1, h2, h3, h4, h5, p, label{
 	color: var(--black-900);
