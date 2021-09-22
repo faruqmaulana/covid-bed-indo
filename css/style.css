@@ -32,6 +32,7 @@ Global css
 	--non-covid-box:#f7fafc;
 	--disable-color:#aaafaf;
 	--border-form: 1px solid #ced4da;
+	--panel-heading: #009688;
 }
 
 /*-- bootstrap modification color --*/
@@ -79,6 +80,16 @@ a#detail{
 .dropdown-item.active {
     background-color:var(--main-color);
 }
+
+/* accordion */
+
+.panel-body {
+	background:var(--main-color);
+  }
+.panel-heading{
+	background-color: var(--panel-heading);
+}
+
 /*-------------------------------------------*/
 body.dark{
 	--main-color:var(--main-color2);
@@ -101,6 +112,7 @@ body.dark{
 	--non-covid-box:#2D3748;
 	--disable-color:#4c4d4d;
 	--border-form: 1px solid #ced4da40;
+	--panel-heading:#1A202C;
 }
 h1, h2, h3, h4, h5, p, label{
 	color: var(--black-900);

@@ -92,10 +92,6 @@ a:active {
   font-weight: 400;
 }
 
-.panel-body {
-  background: #fff;
-}
-
 .panel:last-child .panel-body {
   border-radius: 5px;
 }

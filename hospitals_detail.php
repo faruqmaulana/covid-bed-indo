@@ -42,7 +42,7 @@ if($err){
 
 	echo '<h3 class="font-weight-bold pt-4">'.$hospitalname.'</h3>
     <p class="address">'.$address.'</p>
-    <a type="button" class="btn btn-outline-primary btn-block not-allowed '.$halo.'" href="tel:'.$phone.'" '.$disable_cursor.'><i class="fa fa-phone"></i> '.$phone.'</a><p><span class="line"></span></p>';
+    <a type="button" class="btn btn-outline-primary btn-block not-allowed '.$halo.'" href="tel:'.$phone.'" '.$disable_cursor.' style="color: var(--btn-bg-main); border-color: var(--btn-bg-main);"><i class="fa fa-phone"></i> '.$phone.'</a><p><span class="line"></span></p>';
 	$beds = $hospital_detail["data"]["bedDetail"];
 
 		foreach ($beds as $bed) {
