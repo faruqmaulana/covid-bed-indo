@@ -18,7 +18,7 @@
 		<form method="post">
 			<div class="row">
 				<div class="col-sm-8 offset-sm-2">
-					<h1 class="font-weight-bold mb-3 text-center"> Tempat Tidur Rumah Sakit  </h1>
+					<h1 class="font-weight-bold mb-3 text-center">  Ketersediaan Tempat Tidur Rumah Sakit  </h1>
 					 <div class="form-group">
 					   <label for="provinsi" class="font-weight-bold">Pilih Provinsi</label>
 					   <select class="form-control" name="province">

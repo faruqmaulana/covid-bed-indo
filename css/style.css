@@ -67,7 +67,7 @@ label.form-check-label {
     background-color: #007bff;
     border-color: #007bff;
 }
-.form-control:disabled, .form-control[readonly] {
+.form-control:disabled {
     background-color: var(--main-color);
     opacity: 1;
 	color: var(--disable-color);
