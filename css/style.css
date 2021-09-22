@@ -24,7 +24,7 @@ Global css
 	/*btn*/
 	--btn-bg-main:#3182CE;
 	--btn-bg-dark:#90CDF4;
-
+	--panel-headingg: #009688;
 	--btn-disabled-main:#A2C6E7;
 	--btn-disabled-dark:#49657C;
 
@@ -32,7 +32,6 @@ Global css
 	--non-covid-box:#f7fafc;
 	--disable-color:#aaafaf;
 	--border-form: 1px solid #ced4da;
-	--panel-headingg: #009688;
 }
 
 /*-- bootstrap modification color --*/
