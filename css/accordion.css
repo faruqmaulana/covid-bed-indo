@@ -12,11 +12,7 @@ h3 {
   margin-top: 30px;
   font-weight: 300;
 }
-p.address{
-}
-.btn.btn-outline-primary.btn-block.not-allowed{
 
-}
 p{
   margin-top: 0;
   margin-bottom: 4px;
@@ -73,13 +69,6 @@ a:active {
 
 .panel-group .panel + .panel {
   margin-top: 0;
-}
-
-.panel-heading {
-  border-radius: 5px;
-  border: none;
-  color: #fff;
-  padding: 0;
 }
 
 .panel-title a {
@@ -145,7 +134,7 @@ a:active {
   font-family: 'Material Icons';
   right: 15px;
   top: 19px;
-  transform: rotate(--180deg);
+  transform: rotate(-180deg);
   transition: all 0.5s;
 }
 
