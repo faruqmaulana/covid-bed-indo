@@ -85,7 +85,7 @@ body.dark{
 	--dark-to-main-color:var(--main-color);
 	--shadow-black-100:var(--shadow-black-300);
 	--black-alpha-100: rgba(255,255,255,0.05);
-	--black-900: black;
+	--black-900: #EDEDEE;
 	--black-100: var(--bg-dark);
 
 
