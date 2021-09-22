@@ -30,12 +30,15 @@ Global css
 
 	--form-control:#585f66;
 	--non-covid-box:#f7fafc;
+	--disable-color:#aaafaf;
+	--border-form: 1px solid #ced4da;
 }
 
 /*-- bootstrap modification color --*/
 .form-control {
 	background-color: var(--main-color);
 	color:var(--form-control);
+	border: var(--border-form);
 }
 .btn-primary {
     color: var(--main-color);
@@ -64,6 +67,14 @@ label.form-check-label {
     background-color: #007bff;
     border-color: #007bff;
 }
+.form-control:disabled, .form-control[readonly] {
+    background-color: var(--main-color);
+    opacity: 1;
+	color: var(--disable-color);
+}
+.dropdown-item.active {
+    background-color:var(--main-color);
+}
 /*-------------------------------------------*/
 body.dark{
 	--main-color:var(--main-color2);
@@ -84,6 +95,8 @@ body.dark{
 	--btn-disabled-main:var(--btn-disabled-dark);
 	--form-control:#939597;
 	--non-covid-box:#2D3748;
+	--disable-color:#4c4d4d;
+	--border-form: 1px solid #ced4da40;
 }
 h1, h2, h3, h4, h5, p, label{
 	color: var(--black-900);
