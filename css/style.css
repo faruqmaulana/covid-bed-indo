@@ -77,7 +77,7 @@ label.form-check-label {
 }
 /*-------------------------------------------*/
 body.dark{
-	--main-color:var(--main-color2);
+	--man-color:var(--main-color2);
 	--black-100: var(--bg-dark);
 	--black-000: #282829;
 	--black-400: #d2d2d6;
