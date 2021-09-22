@@ -57,6 +57,10 @@ label.form-check-label {
 	color: var(--btn-bg-main);
 	border-color: var(--btn-bg-main);
 }
+#detail{
+	color: var(--btn-bg-main);
+	border-color: var(--btn-bg-main);
+}
 .btn-outline-primary:hover {
     color: #fff;
     background-color: #007bff17;
