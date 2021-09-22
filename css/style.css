@@ -81,14 +81,6 @@ a#detail{
     background-color:var(--main-color);
 }
 
-/* accordion */
-
-.panel-body {
-	background:var(--main-color);
-  }
-.panel-heading{
-	background-color: var(--panel-heading);
-}
 
 /*-------------------------------------------*/
 body.dark{
