@@ -13,8 +13,6 @@ window.addEventListener('load',() => {
 				{	
 					$('#wait').hide();
 					$("div[name=detail-host]").html(detail);
-
-					console.log(detail);
 				},
 				error: function (xhr, textStatus, errorThrown) {
 			    console.log('Error in API Call!');
