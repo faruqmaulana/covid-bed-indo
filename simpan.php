@@ -218,7 +218,8 @@ if($err){
 						  	<a type="button" class="btn btn-outline-primary btn-block not-allowed info-lokasi" id="lokasi" target="_blank" id_hospitall="'.$id_hospitals.'"><i class="fas fa-map-marker-alt"></i> Lokasi</a>
 						  </div>
 						  <div class="col-sm-3">
-						  	<a type="button" class="btn btn-outline-primary btn-block not-allowed see-detail" id_hospital="'.$id_hospitals.'">Detail <i class="fas fa-arrow-right"></i></a>
+						  	<a type="button" class="btn btn-outline-primary btn-block not-allowed see-detail" id_hospital="'.$id_hospitals.'" style="color: var(--btn-bg-main);
+							  border-color: var(--btn-bg-main);">Detail <i class="fas fa-arrow-right"></i></a>
 						  </div>
 						  </div>
 						</div>
