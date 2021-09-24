@@ -1,2 +1,2 @@
 # heyooo
-It's me faruq 🙌
+It's me 
